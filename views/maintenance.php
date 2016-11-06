@@ -1,33 +1,23 @@
 <?php
 /*
- * Plugin Name: LifeSupport
+ * Plugin Name: Life Support
  * Plugin URI: https://www.nirmankarta.com
  * Description: Wordpress plugin to display a custom maintenance mode page for anyone who's not logged in.
  * Version: 1.0
  * Author: Prabhanshu, Nirmankarta (http:///prabhanshu.com)
  * Author URI: https://www.nirmankarta.com
- * License: GPL2
  *
- * @package maintenance-mode
+ * @package life-support
  * @copyright Copyright (c) 2016
- * @license AGPL-3.0
+ * @license AGPL3
 */
-
-/**
- * LifeSupport
- *
- * Wordpress plugin to display the coming soon page for anyone who's not logged in.
- * The login page gets excluded so that you can login if necessary.
- *
- * @return void
- */
 ?>
 <html>
 <head>
   <title>Veja Du | Prabhanshu Attri</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <link href='/wp-content/plugins/maintenance-mode/assets/css/maintenance.css' rel='stylesheet' type='text/css'>
+  <link href='<?php echo plugins_url( 'assets/css/style.css', dirname( __FILE__ ) ); ?>' rel='stylesheet' type='text/css'>
   
 </head>
 <body>
@@ -44,7 +34,8 @@
     </p>
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="/wp-content/plugins/maintenance-mode/assets/js/maintenance.js"></script>
+  <script type="text/javascript" src="<?php echo plugins_url( 'assets/js/my-terminal.js', dirname( __FILE__ ) ); ?>"></script>
 </body>
 </html>
+                            
                             

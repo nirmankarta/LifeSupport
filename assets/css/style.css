@@ -1,25 +1,15 @@
 /*
- * Plugin Name: LifeSupport
+ * Plugin Name: Life Support
  * Plugin URI: https://www.nirmankarta.com
  * Description: Wordpress plugin to display a custom maintenance mode page for anyone who's not logged in.
  * Version: 1.0
  * Author: Prabhanshu, Nirmankarta (http:///prabhanshu.com)
  * Author URI: https://www.nirmankarta.com
- * License: GPL2
  *
- * @package maintenance-mode
+ * @package life-support
  * @copyright Copyright (c) 2016
- * @license AGPL-3.0
+ * @license AGPL3
 */
-
-/**
- * LifeSupport
- *
- * Wordpress plugin to display the coming soon page for anyone who's not logged in.
- * The login page gets excluded so that you can login if necessary.
- *
- * @return void
- */
  
 body {
   font-family: 'Lato', sans-serif;
@@ -127,4 +117,5 @@ span > a > i {
   font-size: 1.5rem !important;
   margin-right: 5px;
 }
+                            
                             
