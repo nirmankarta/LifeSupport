@@ -30,7 +30,7 @@
     <p class="footer">
       <span>It looks like server is spilling some beans. Please ignore.</span><br/><br/>
       <span>Let&#39;s get connected</span><br/><br/>
-      <span><a href="mailto:contact/prabhanshu.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a> <a href="/linkedin" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="/twitter" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href="/quora" target="_blank"><i class="fa fa-quora" aria-hidden="true"></i></a></span>
+      <span><a href="mailto:contact@prabhanshu.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a> <a href="/twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="/linkedin" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href="/quora" target="_blank"><i class="fa fa-quora" aria-hidden="true"></i></a> <a href="/github-repo" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span>
     </p>
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
